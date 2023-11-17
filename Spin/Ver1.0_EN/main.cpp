@@ -25,7 +25,7 @@ int main()
 
         if(sw){
             mouse_event(MOUSEEVENTF_MOVE, 800, 0, 0, 0);    // mouse move event
-            printf(SET_TEXT_COLOR(0, 255, 0) "ON" CLE);
+            printf(SET_TEXT_COLOR(0, 255, 0) "ON " CLE);
         }
         else{
             printf(SET_TEXT_COLOR(255, 0, 0) "OFF" CLE);
